@@ -1,0 +1,9 @@
+timestamp,latitude,longitude,download_speed,upload_speed,connection_type,isp_name,day,date,type_of_day,session,temperature,crowdedness,environment_type,location_name,floor,mobility
+08:30,12.9716,77.5946,35.5 Mbps,10.2 Mbps,4G,Airtel,Sunday,2024-09-15,Weekend,Morning,25°C,Medium,Indoor,Library,2
+14:45,12.9716,77.5946,50.2 Mbps,15.8 Mbps,5G,Jio,Sunday,2024-09-15,Weekend,Afternoon,30°C,High,Outdoor,Park,N/A
+09:00,12.9716,77.5946,40.3 Mbps,12.5 Mbps,4G,Vodafone,Monday,2024-09-16,Weekday,Morning,20°C,Low,Indoor,Office,5
+19:30,12.9716,77.5946,20.1 Mbps,8.4 Mbps,4G,Airtel,Monday,2024-09-16,Weekday,Evening,22°C,Medium,Indoor,Cafe,1
+07:00,12.9716,77.5946,30.2 Mbps,9.6 Mbps,4G,Jio,Tuesday,2024-09-17,Weekday,Morning,23�C,Low,Indoor,Gym,3
+07:00,12.9716,77.5946,30.2 Mbps,9.6 Mbps,4G,Jio,Tuesday,2024-09-17,Weekday,Morning,23�C,Low,Indoor,Gym,3
+10:00,12.9716,77.5946,38.4 Mbps,11.9 Mbps,4G,Vodafone,Wednesday,2024-09-18,Weekday,Morning,22�C,High,Indoor,Classroom,1
+16:30,12.9716,77.5946,25.6 Mbps,7.3 Mbps,4G,Jio,Wednesday,2024-09-18,Weekday,Evening,24�C,Medium,Outdoor,Bus Stop,N/A
