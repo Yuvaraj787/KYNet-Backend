@@ -25,5 +25,10 @@ def add_data():
 
     return jsonify({"message": "Data added successfully"}), 200
 
+@app.route('/data/network_data.csv', methods=['GET'])
+def send_data_file():
+    return send_file("./network_data.csv", as_attachment=True);
+
+
 if __name__ == '__main__':
     app.run(debug=False, port=80, host="0.0.0.0")
