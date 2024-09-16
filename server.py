@@ -9,7 +9,8 @@ CORS(app, resources={r"*": {"origins": "*"}})
 def add_data():
     # Get JSON data from request
     print("Request came");
-    data = eval(request.json)
+    print(request.json);
+    data = request.json['data'];
 
     # Check if data is a list of lists
     if not isinstance(data, list) or not all(isinstance(row, list) for row in data):
@@ -20,7 +21,9 @@ def add_data():
         writer = csv.writer(file)
         writer.writerows(data)
 
+    print("write success full");
+
     return jsonify({"message": "Data added successfully"}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True, port=3000)
+    app.run(debug=False, port=80, host="0.0.0.0")

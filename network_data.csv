@@ -1,9 +1,615 @@
-timestamp,latitude,longitude,download_speed,upload_speed,connection_type,isp_name,day,date,type_of_day,session,temperature,crowdedness,environment_type,location_name,floor,mobility
-08:30,12.9716,77.5946,35.5 Mbps,10.2 Mbps,4G,Airtel,Sunday,2024-09-15,Weekend,Morning,25°C,Medium,Indoor,Library,2
-14:45,12.9716,77.5946,50.2 Mbps,15.8 Mbps,5G,Jio,Sunday,2024-09-15,Weekend,Afternoon,30°C,High,Outdoor,Park,N/A
-09:00,12.9716,77.5946,40.3 Mbps,12.5 Mbps,4G,Vodafone,Monday,2024-09-16,Weekday,Morning,20°C,Low,Indoor,Office,5
-19:30,12.9716,77.5946,20.1 Mbps,8.4 Mbps,4G,Airtel,Monday,2024-09-16,Weekday,Evening,22°C,Medium,Indoor,Cafe,1
-07:00,12.9716,77.5946,30.2 Mbps,9.6 Mbps,4G,Jio,Tuesday,2024-09-17,Weekday,Morning,23�C,Low,Indoor,Gym,3
-07:00,12.9716,77.5946,30.2 Mbps,9.6 Mbps,4G,Jio,Tuesday,2024-09-17,Weekday,Morning,23�C,Low,Indoor,Gym,3
-10:00,12.9716,77.5946,38.4 Mbps,11.9 Mbps,4G,Vodafone,Wednesday,2024-09-18,Weekday,Morning,22�C,High,Indoor,Classroom,1
-16:30,12.9716,77.5946,25.6 Mbps,7.3 Mbps,4G,Jio,Wednesday,2024-09-18,Weekday,Evening,24�C,Medium,Outdoor,Bus Stop,N/A
+timestamp,latitude,longitude,download_speed,upload_speed,latency,connection_type,isp_name,day,date,type_of_day,session,temperature,crodedness,environment_type,location_name,floor,mobility
+14:51,13.0151344,80.2398425,0.04699999839067459,0.039000000804662704,35,5G,Airtel,Sunday,15-09-2024,Weekend,Afternoon,36.87,scattered clouds,Crowded,,0,No movement
+14:51,13.0151344,80.2398425,0.04699999839067459,0.039000000804662704,35,5G,Airtel,Sunday,15-09-2024,Weekend,Afternoon,36.87,scattered clouds,Crowded,,0,No movement
+14:51,13.0151344,80.2398425,0.04699999839067459,0.039000000804662704,35,5G,Airtel,Sunday,15-09-2024,Weekend,Afternoon,36.87,scattered clouds,Crowded,,0,No movement
+14:51,13.0151344,80.2398425,0.04699999839067459,0.039000000804662704,35,5G,Airtel,Sunday,15-09-2024,Weekend,Afternoon,36.87,scattered clouds,Crowded,,0,No movement
+14:51,13.0151344,80.2398425,0.04699999839067459,0.039000000804662704,35,5G,Airtel,Sunday,15-09-2024,Weekend,Afternoon,36.87,scattered clouds,Crowded,,0,No movement
+14:51,13.0151344,80.2398425,0.04699999839067459,0.039000000804662704,35,5G,Airtel,Sunday,15-09-2024,Weekend,Afternoon,36.87,scattered clouds,Crowded,,0,No movement
+14:51,13.0151344,80.2398425,0.04699999839067459,0.039000000804662704,35,5G,Airtel,Sunday,15-09-2024,Weekend,Afternoon,36.87,scattered clouds,Crowded,,0,No movement
+14:51,13.0151344,80.2398425,0.04699999839067459,0.039000000804662704,35,5G,Airtel,Sunday,15-09-2024,Weekend,Afternoon,36.87,scattered clouds,Crowded,,0,No movement
+14:51,13.0151344,80.2398425,0.04699999839067459,0.039000000804662704,35,5G,Airtel,Sunday,15-09-2024,Weekend,Afternoon,36.87,scattered clouds,Crowded,,0,No movement
+14:51,13.0151344,80.2398425,0.04699999839067459,0.039000000804662704,35,5G,Airtel,Sunday,15-09-2024,Weekend,Afternoon,36.87,scattered clouds,Crowded,,0,No movement
+14:51,13.0151344,80.2398425,0.04699999839067459,0.039000000804662704,35,5G,Airtel,Sunday,15-09-2024,Weekend,Afternoon,36.87,scattered clouds,Free,vpm,2,Walking
+15:15,13.0151437,80.2398478,22.378999710083008,1.6710000038146973,4,WIFI,Other,Sunday,15-09-2024,Weekend,Afternoon,35.82,scattered clouds,Crowded,Hostel,0,No movement
+15:15,13.0151437,80.2398478,22.378999710083008,1.6710000038146973,4,WIFI,Other,Sunday,15-09-2024,Weekend,Afternoon,35.82,scattered clouds,Crowded,Hostel,0,Slow Walking
+15:15,13.0151437,80.2398478,22.378999710083008,1.6710000038146973,4,WIFI,Other,Sunday,15-09-2024,Weekend,Afternoon,35.82,scattered clouds,Crowded,Hostel,0,No movement
+15:15,13.0151437,80.2398478,22.378999710083008,1.6710000038146973,4,WIFI,Other,Sunday,15-09-2024,Weekend,Afternoon,35.82,scattered clouds,Crowded,Hut,0,Slow Walking
+15:28,13.0241664,80.243273,0,0,0,,Other,Sunday,15-09-2024,Weekend,Afternoon,35.73,scattered clouds,Crowded,,0,No movement
+15:28,13.0241664,80.243273,0,0,0,,Other,Sunday,15-09-2024,Weekend,Afternoon,35.73,scattered clouds,Crowded,,0,No movement
+15:40,13.0151443,80.2398435,0.0,0.0,6,,Other,Sunday,15-09-2024,Weekend,Afternoon,35.45,scattered clouds,Crowded,jp,0,No movement
+16:10,13.0151238,80.2398386,18.259000778198242,2.186000108718872,4,WIFI,Other,Sunday,15-09-2024,Weekend,Evening,34.3,scattered clouds,Crowded,Sanbagam,0,No movement
+16:12,12.8177481,78.8900989,0.0,0.0,0,,Airtel,Sunday,15-09-2024,Weekend,Evening,35.31,scattered clouds,Crowded,Vellore ,0,Not Detected
+16:12,12.8177481,78.8900989,26.839000701904297,1.99399995803833,17,4G,Airtel,Sunday,15-09-2024,Weekend,Evening,35.31,scattered clouds,Crowded,Vellore ,0,Not Detected
+16:13,,,13.949,0.0,34,,Jio,Sunday,15-09-2024,Weekend,Evening,,,Crowded,,0,Not Detected
+,,,0.0,0.0,0,,,,,,,,,Free,ovppyo,1,Not Detected
+16:15,13.0128131,80.2366731,0.0,0.0,25,,Jio,Sunday,15-09-2024,Weekend,Evening,34.32,scattered clouds,Crowded,,0,No movement
+03:45,40.7127,-74.0073,0.0,0.0,0,,Other,Sunday,15-09-2024,Weekend,Midnight,19.21,clear sky,Free,ovppyo,1,No movement
+03:45,40.7127,-74.0073,0.0,0.0,0,,Other,Sunday,15-09-2024,Weekend,Midnight,19.21,clear sky,Free,ovppyo,1,No movement
+16:16,13.0129085,80.23659,0.0,0.0,30,,Jio,Sunday,15-09-2024,Weekend,Evening,34.32,scattered clouds,Crowded,,0,No movement
+16:10,13.0151238,80.2398386,105.16899871826172,2.0420000553131104,8,5G,Other,Sunday,15-09-2024,Weekend,Evening,34.3,scattered clouds,Free,Hostel Road 2,0,Walking
+16:18,13.014904,80.2393524,105.16899871826172,2.0420000553131104,8,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Hostel Road 2,0,Walking
+16:18,13.0149037,80.2393392,105.16899871826172,2.0420000553131104,8,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Hostel Road 2,0,Walking
+16:18,13.014904,80.2393319,105.16899871826172,2.0420000553131104,8,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Hostel Road 2,0,Walking
+16:18,13.0149041,80.2393173,105.16899871826172,2.0420000553131104,8,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Hostel Road 2,0,Walking
+16:18,13.0149043,80.2393128,105.16899871826172,2.0420000553131104,8,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Hostel Road 2,0,Walking
+16:18,13.0149038,80.2393068,105.16899871826172,2.0420000553131104,8,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Hostel Road 2,0,Walking
+16:18,13.0149116,80.2392806,105.16899871826172,2.0420000553131104,8,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Hostel Road 2,0,Walking
+16:16,13.0127892,80.2366249,0.0,0.0,0,,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Crowded,Alumni,0,No movement
+16:17,13.0128117,80.2366333,0.0,0.0,17,,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Alumni,0,No movement
+16:19,13.0128306,80.2366361,0.0,0.0,0,,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Alumni,0,No movement
+16:18,13.0149116,80.2392806,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Hostel Road 2,0,No movement
+16:19,13.0149541,80.238527,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Hostel Road 2,0,Slow Walking
+16:19,13.014954,80.2385102,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Hostel Road 2,0,Slow Walking
+16:20,13.0150538,80.2386264,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Hostel Road 2,0,Walking
+16:20,13.0150499,80.2386216,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,Walking
+16:20,13.0150499,80.2386216,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,Walking
+16:20,13.0150587,80.2386236,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,Slow Walking
+16:20,13.0150632,80.2386254,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,Slow Walking
+16:20,13.0150574,80.2386171,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,Slow Walking
+16:20,13.0150574,80.2386171,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,Slow Walking
+16:20,13.015044,80.2386035,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,Slow Walking
+16:20,13.0150415,80.2386054,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,Slow Walking
+16:20,13.0150415,80.2386054,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,Slow Walking
+16:20,13.0150392,80.2386083,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,Slow Walking
+16:20,13.0150366,80.2386121,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,Slow Walking
+16:20,13.0150282,80.2386142,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,Slow Walking
+16:18,13.015007,80.2392747,1.625,0.026000000536441803,50,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Crowded,Hostel Road 2,0,No movement
+16:18,13.015007,80.2392747,1.625,0.026000000536441803,50,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Crowded,Hostel Road 2,0,Slow Walking
+16:21,13.0150065,80.2385955,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,No movement
+16:21,13.0150117,80.2385912,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,No movement
+16:21,13.0150141,80.2385902,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,No movement
+16:21,13.0150194,80.2385875,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,No movement
+16:21,13.0150288,80.2385827,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,Walking
+16:21,13.0150324,80.2385766,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,Walking
+16:21,13.0150394,80.2385714,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,Walking
+16:21,13.0147783,80.2380978,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.42,scattered clouds,Free,Hostel Road 2,0,No movement
+16:21,13.0147783,80.2380978,64.5260009765625,2.7039999961853027,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Hostel Road 2,0,No movement
+16:19,13.0128306,80.2366361,6.999000072479248,0.12999999523162842,16,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Alumni,0,No movement
+16:19,13.0128306,80.2366361,6.999000072479248,0.12999999523162842,16,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Alumni,0,No movement
+16:19,13.0128306,80.2366361,6.999000072479248,0.12999999523162842,16,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Alumni,0,No movement
+16:19,13.0128306,80.2366361,6.999000072479248,0.12999999523162842,16,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Alumni,0,No movement
+16:19,13.0128306,80.2366361,6.999000072479248,0.12999999523162842,16,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Alumni,0,No movement
+16:19,13.0128306,80.2366361,6.999000072479248,0.12999999523162842,16,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Alumni,0,No movement
+16:19,13.0128306,80.2366361,6.999000072479248,0.12999999523162842,16,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Alumni,0,No movement
+16:19,13.0128306,80.2366361,6.999000072479248,0.12999999523162842,16,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Alumni,0,No movement
+16:19,13.0128306,80.2366361,6.999000072479248,0.12999999523162842,16,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Alumni,0,No movement
+16:19,13.0128306,80.2366361,6.999000072479248,0.12999999523162842,16,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Alumni,0,No movement
+16:19,13.0128306,80.2366361,6.999000072479248,0.12999999523162842,16,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Alumni,0,No movement
+16:19,13.0128306,80.2366361,6.999000072479248,0.12999999523162842,16,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Alumni,0,No movement
+16:23,13.0133472,80.2369407,0.0,0.0,32,,Jio,Sunday,15-09-2024,Weekend,Evening,34.44,scattered clouds,Free,Alumni,0,No movement
+16:19,13.0128306,80.2366361,6.999000072479248,0.12999999523162842,16,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Alumni,0,No movement
+16:19,13.0128306,80.2366361,6.999000072479248,0.12999999523162842,16,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.39,scattered clouds,Free,Alumni,0,No movement
+16:23,13.0133472,80.2369407,0.0,0.0,32,,Jio,Sunday,15-09-2024,Weekend,Evening,34.44,scattered clouds,Free,Alumni,0,No movement
+16:31,13.01333,80.2361483,0.0,0.0,0,,Jio,Sunday,15-09-2024,Weekend,Evening,34.44,scattered clouds,Free,Blueshed,0,No movement
+16:31,13.01333,80.2361483,0.9390000104904175,0.22200000286102295,65,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.44,scattered clouds,Free,Blueshed,0,No movement
+16:31,13.01333,80.2361483,0.9390000104904175,0.22200000286102295,65,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.44,scattered clouds,Free,Blueshed,0,No movement
+16:31,13.01333,80.2361483,0.9390000104904175,0.22200000286102295,65,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.44,scattered clouds,Free,Blueshed,0,No movement
+16:31,13.01333,80.2361483,0.9390000104904175,0.22200000286102295,65,4G,Jio,Sunday,15-09-2024,Weekend,Evening,34.44,scattered clouds,Free,Blueshed,0,No movement
+16:35,13.0133295,80.2361894,3.125,0.3449999988079071,47,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:38,13.013305,80.2362183,160.031005859375,0.5550000071525574,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:38,13.013305,80.2362183,160.031005859375,0.5550000071525574,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:38,13.013305,80.2362183,160.031005859375,0.5550000071525574,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:38,13.013305,80.2362183,160.031005859375,0.5550000071525574,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:38,13.0133037,80.2362151,160.031005859375,0.5550000071525574,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Walking
+16:38,13.0133,80.2362167,160.031005859375,0.5550000071525574,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Walking
+16:38,13.0132901,80.2362103,160.031005859375,0.5550000071525574,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:39,13.0132836,80.2362166,160.031005859375,0.5550000071525574,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:39,13.0132827,80.2362204,160.031005859375,0.5550000071525574,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:39,13.0132816,80.2362195,160.031005859375,0.5550000071525574,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:39,13.0132894,80.2362254,160.031005859375,0.5550000071525574,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:39,13.0133211,80.2362465,160.031005859375,0.5550000071525574,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:39,13.0133295,80.2362567,160.031005859375,0.5550000071525574,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:39,13.0133319,80.2362162,0.0,0.0,9,,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:39,13.0133319,80.2362162,354.0050048828125,5.743000030517578,9,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:38,13.0134097,80.2362667,1.0460000038146973,0.10400000214576721,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:40,13.0133759,80.2362502,1.0460000038146973,0.10400000214576721,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:40,13.0133713,80.2362364,1.0460000038146973,0.10400000214576721,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:40,13.0133712,80.2362361,1.0460000038146973,0.10400000214576721,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:40,13.0133689,80.2362445,1.0460000038146973,0.10400000214576721,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:40,13.0133728,80.2362513,1.0460000038146973,0.10400000214576721,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:40,13.0133747,80.2362499,1.0460000038146973,0.10400000214576721,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:40,13.0133548,80.2361038,354.0050048828125,5.743000030517578,9,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:40,13.0133504,80.2361008,354.0050048828125,5.743000030517578,9,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:40,13.0133462,80.2361006,354.0050048828125,5.743000030517578,9,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:41,13.0133072,80.2361177,280.5639953613281,3.763000011444092,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:41,13.0133077,80.2361178,280.5639953613281,3.763000011444092,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:41,13.0133091,80.236118,280.5639953613281,3.763000011444092,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:41,13.0133189,80.2361035,280.5639953613281,3.763000011444092,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:41,13.0133249,80.2360828,280.5639953613281,3.763000011444092,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:41,13.0133249,80.2360828,280.5639953613281,3.763000011444092,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:41,13.0133323,80.2360733,280.5639953613281,3.763000011444092,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:37,13.0134054,80.236177,0.0,0.0,0,,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:38,13.0133525,80.2361919,0.7509999871253967,0.10400000214576721,50,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:38,13.0133525,80.2361919,0.7509999871253967,0.10400000214576721,50,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:39,13.0133882,80.2361747,0.7509999871253967,0.10400000214576721,50,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:39,13.0133882,80.2361747,0.7509999871253967,0.10400000214576721,50,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:39,13.0133883,80.236175,0.7509999871253967,0.10400000214576721,50,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:40,13.0133883,80.236175,0.7509999871253967,0.10400000214576721,50,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:40,13.0133883,80.236175,0.7509999871253967,0.10400000214576721,50,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:41,13.0133683,80.2361067,1.180999994277954,0.08500000089406967,63,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:41,13.0133683,80.2361067,1.180999994277954,0.08500000089406967,63,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:41,13.0133252,80.2360926,1.180999994277954,0.08500000089406967,63,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:41,13.0133252,80.2360926,1.180999994277954,0.08500000089406967,63,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:41,13.0133252,80.2360926,1.180999994277954,0.08500000089406967,63,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:42,13.013335,80.2361,21.53700065612793,0.23499999940395355,15,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:42,13.013335,80.2361,21.53700065612793,0.23499999940395355,15,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:42,13.0134109,80.2362239,0.7850000262260437,0.03200000151991844,-1,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:42,13.0134089,80.2362134,0.7850000262260437,0.03200000151991844,-1,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:42,13.0134076,80.2362114,0.7850000262260437,0.03200000151991844,-1,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:42,13.0134019,80.2362185,0.7850000262260437,0.03200000151991844,-1,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:42,13.0134002,80.2362225,0.7850000262260437,0.03200000151991844,-1,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:42,13.0134002,80.2362225,0.7850000262260437,0.03200000151991844,-1,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:41,13.0133323,80.2360733,107.84300231933594,1.0980000495910645,30,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:42,13.0132999,80.2360799,107.84300231933594,1.0980000495910645,30,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:42,13.013308,80.2360737,107.84300231933594,1.0980000495910645,30,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:42,13.0133149,80.2360665,107.84300231933594,1.0980000495910645,30,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:43,13.013319,80.2360561,107.84300231933594,1.0980000495910645,30,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:43,13.0133206,80.2360401,107.84300231933594,1.0980000495910645,30,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:43,13.0133161,80.2360605,107.84300231933594,1.0980000495910645,30,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:43,13.0133404,80.2361182,107.84300231933594,1.0980000495910645,30,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:43,13.0133414,80.2361231,107.84300231933594,1.0980000495910645,30,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:43,13.0133435,80.2361281,107.84300231933594,1.0980000495910645,30,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:43,13.0133451,80.2361326,107.84300231933594,1.0980000495910645,30,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:43,13.013347,80.2361369,146.9550018310547,0.5820000171661377,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:43,13.013347,80.2361369,146.9550018310547,0.5820000171661377,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:43,13.013347,80.2361369,146.9550018310547,0.5820000171661377,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:43,13.013347,80.2361369,146.9550018310547,0.5820000171661377,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:44,13.0133041,80.2362172,146.9550018310547,0.5820000171661377,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:44,13.0133019,80.2362169,146.9550018310547,0.5820000171661377,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:44,13.0133019,80.2362169,146.9550018310547,0.5820000171661377,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:44,13.0132966,80.2362147,146.9550018310547,0.5820000171661377,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:44,13.0132919,80.2362124,146.9550018310547,0.5820000171661377,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:44,13.0132919,80.2362124,146.9550018310547,0.5820000171661377,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,Slow Walking
+16:45,13.0133305,80.2361151,23.31999969482422,4.552999973297119,28,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:45,13.0133305,80.2361132,23.31999969482422,4.552999973297119,28,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:45,13.0133305,80.2361132,23.31999969482422,4.552999973297119,28,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:45,13.013327,80.2361102,23.31999969482422,4.552999973297119,28,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:45,13.013327,80.2361102,23.31999969482422,4.552999973297119,28,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:45,13.0133786,80.2361676,1.2309999465942383,0.039000000804662704,29,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed,0,No movement
+16:46,13.0133718,80.236182,1.2309999465942383,0.039000000804662704,29,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,No movement
+16:46,13.0133656,80.2361828,1.2309999465942383,0.039000000804662704,29,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,No movement
+16:46,13.0133746,80.2361912,1.2309999465942383,0.039000000804662704,29,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:46,13.0133796,80.2361754,1.2309999465942383,0.039000000804662704,29,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:46,13.0133452,80.23615,23.31999969482422,4.552999973297119,28,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed - Yuvaraj,0,Slow Walking
+16:46,13.0133452,80.23615,318.7860107421875,0.5950000286102295,17,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed - Yuvaraj,0,No movement
+16:47,13.0133661,80.2361073,318.7860107421875,0.5950000286102295,17,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.63,scattered clouds,Free,Blueshed - Yuvaraj,0,Slow Walking
+16:47,13.0133678,80.2361089,318.7860107421875,0.5950000286102295,17,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed - Yuvaraj,0,Slow Walking
+16:49,13.0133725,80.2358531,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:49,13.013367,80.2358574,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:49,13.0133669,80.2358591,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:49,13.0133675,80.2358575,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:49,13.0133697,80.2358548,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:49,13.013374,80.235852,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:49,13.0133778,80.2358475,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:49,13.0133778,80.2358475,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:49,13.013383,80.2358462,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:49,13.013383,80.2358462,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:49,13.0133877,80.2358463,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:49,13.0133929,80.2358461,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:49,13.0133991,80.2358456,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+16:49,13.0134055,80.2358445,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+16:49,13.0134055,80.2358445,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+16:49,13.0134183,80.2358416,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+16:49,13.0134183,80.2358416,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+16:49,13.013428,80.2358388,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+16:49,13.013434,80.2358364,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+16:49,13.013434,80.2358364,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+16:49,13.013439,80.2358332,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+16:49,13.0134424,80.2358284,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:49,13.0134442,80.2358248,176.70799255371094,0.7459999918937683,24,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:47,13.0133926,80.2361796,1.468000054359436,0.22699999809265137,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,Walking
+16:47,13.0133926,80.2361796,1.468000054359436,0.22699999809265137,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,Walking
+16:49,13.0134145,80.236043,1.468000054359436,0.22699999809265137,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:49,13.0133957,80.2360233,1.468000054359436,0.22699999809265137,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-Hariharan,0,No movement
+16:50,13.0134017,80.2360234,1.468000054359436,0.22699999809265137,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:50,13.0133935,80.2360237,1.468000054359436,0.22699999809265137,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:50,13.0133978,80.236036,1.468000054359436,0.22699999809265137,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:47,13.0133926,80.2361796,1.468000054359436,0.22699999809265137,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,Walking
+16:47,13.0133926,80.2361796,1.468000054359436,0.22699999809265137,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,Walking
+16:49,13.0134145,80.236043,1.468000054359436,0.22699999809265137,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:49,13.0133957,80.2360233,1.468000054359436,0.22699999809265137,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-Hariharan,0,No movement
+16:50,13.0134017,80.2360234,1.468000054359436,0.22699999809265137,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:50,13.0133935,80.2360237,1.468000054359436,0.22699999809265137,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:50,13.0133978,80.236036,1.468000054359436,0.22699999809265137,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:50,13.0134907,80.2357942,64.5780029296875,0.23499999940395355,17,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:50,13.01349,80.2357937,64.5780029296875,0.23499999940395355,17,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:50,13.01349,80.2357937,64.5780029296875,0.23499999940395355,17,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:50,13.0134879,80.2357921,64.5780029296875,0.23499999940395355,17,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:50,13.0134879,80.2357921,64.5780029296875,0.23499999940395355,17,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:50,13.0134879,80.2357921,64.5780029296875,0.23499999940395355,17,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:50,13.0134869,80.235791,64.5780029296875,0.23499999940395355,17,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:50,13.0134869,80.2357909,64.5780029296875,0.23499999940395355,17,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:50,13.0134387,80.2358568,64.5780029296875,0.23499999940395355,17,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:50,13.0134387,80.2358568,64.5780029296875,0.23499999940395355,17,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:50,13.0134387,80.2358568,64.5780029296875,0.23499999940395355,17,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:50,13.0134071,80.235735,100.46900177001953,4.23799991607666,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:50,13.0134071,80.235735,100.46900177001953,4.23799991607666,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:50,13.0134071,80.235735,100.46900177001953,4.23799991607666,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:51,13.0134027,80.2357353,100.46900177001953,4.23799991607666,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:51,13.0133959,80.2357394,100.46900177001953,4.23799991607666,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:47,13.0133585,80.2361405,1.2979999780654907,0.12999999523162842,52,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-D,0,No movement
+16:47,13.0133585,80.2361405,1.2979999780654907,0.12999999523162842,52,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-D,0,No movement
+16:47,13.0133617,80.23614,1.2979999780654907,0.12999999523162842,52,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-D,0,No movement
+16:47,13.0133617,80.23614,1.2979999780654907,0.12999999523162842,52,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-D,0,No movement
+16:47,13.0133635,80.2361392,1.2979999780654907,0.12999999523162842,52,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-D,0,No movement
+16:47,13.0133635,80.2361392,1.2979999780654907,0.12999999523162842,52,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-D,0,No movement
+16:48,13.0133733,80.2361417,204.38900756835938,0.24799999594688416,14,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-D,0,No movement
+16:48,13.0133733,80.2361417,204.38900756835938,0.24799999594688416,14,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-D,0,No movement
+16:48,13.0133733,80.2361417,204.38900756835938,0.24799999594688416,14,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-D,0,No movement
+16:49,13.0133867,80.2361717,66.99500274658203,0.42399999499320984,15,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-D,0,No movement
+16:49,13.0133867,80.2361717,66.99500274658203,0.42399999499320984,15,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-D,0,No movement
+16:49,13.0133867,80.2361717,66.99500274658203,0.42399999499320984,15,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-D,0,No movement
+16:49,13.0133682,80.2361386,66.99500274658203,0.42399999499320984,15,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-D,0,Slow Walking
+16:50,13.0133317,80.2360967,47.84600067138672,0.2540000081062317,11,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-D,0,No movement
+16:50,13.0133182,80.2361026,47.84600067138672,0.2540000081062317,11,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-D,0,No movement
+16:51,13.0133247,80.2360845,333.6369934082031,0.2280000001192093,14,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-D,0,No movement
+16:51,13.0133247,80.2360845,333.6369934082031,0.2280000001192093,14,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-D,0,No movement
+16:53,13.0134,80.2359854,22.981000900268555,0.09700000286102295,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:53,13.0133762,80.235973,22.981000900268555,0.09700000286102295,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:54,13.013384,80.2359692,22.981000900268555,0.09700000286102295,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,No movement
+16:54,13.0133948,80.235968,22.981000900268555,0.09700000286102295,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:54,13.0133889,80.2359285,22.981000900268555,0.09700000286102295,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,Walking
+16:54,13.01341,80.2359603,22.981000900268555,0.09700000286102295,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,Walking
+16:54,13.0133861,80.2359524,22.981000900268555,0.09700000286102295,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:54,13.013401,80.2359568,22.981000900268555,0.09700000286102295,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:54,13.0133843,80.2359693,22.981000900268555,0.09700000286102295,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:54,13.0133886,80.2359487,22.981000900268555,0.09700000286102295,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-Hariharan,0,Slow Walking
+16:53,13.0133533,80.2359583,316.2959899902344,0.2800000011920929,9,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-D,0,No movement
+16:53,13.0133533,80.2359583,316.2959899902344,0.2800000011920929,9,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Blueshed-D,0,No movement
+16:52,13.0134167,80.2356445,100.46900177001953,4.23799991607666,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:52,13.0134198,80.2356573,100.46900177001953,4.23799991607666,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:52,13.0133973,80.2358627,19.427,0.0,10,,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+16:52,13.0133964,80.2358697,19.427,0.0,10,,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+16:57,13.0131329,80.2357788,0.20200000703334808,0.10999999940395355,40,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,No movement
+16:57,13.0131352,80.2357809,0.20200000703334808,0.10999999940395355,40,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,No movement
+16:57,13.0131387,80.2357884,0.20200000703334808,0.10999999940395355,40,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,No movement
+16:57,13.0131377,80.2357889,0.20200000703334808,0.10999999940395355,40,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,No movement
+16:57,13.0131369,80.2357863,0.20200000703334808,0.10999999940395355,40,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,No movement
+16:57,13.0131414,80.2357901,0.20200000703334808,0.10999999940395355,40,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,IT Dept,0,Slow Walking
+16:57,13.0131388,80.2357936,0.20200000703334808,0.10999999940395355,40,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,Slow Walking
+16:57,13.0131339,80.2357875,0.20200000703334808,0.10999999940395355,40,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,IT Dept,0,No movement
+16:57,13.0131365,80.2357819,0.20200000703334808,0.10999999940395355,40,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.21,scattered clouds,Free,IT Dept,0,Slow Walking
+16:57,13.0131291,80.2357891,0.20200000703334808,0.10999999940395355,40,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,Slow Walking
+16:57,13.0131591,80.2357891,188.67300415039062,7.114999771118164,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:57,13.0131586,80.2357905,188.67300415039062,7.114999771118164,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:57,13.0131587,80.2357878,188.67300415039062,7.114999771118164,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:57,13.0131586,80.2357864,188.67300415039062,7.114999771118164,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:57,13.0131479,80.2357783,188.67300415039062,7.114999771118164,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:57,13.0131479,80.2357783,188.67300415039062,7.114999771118164,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:57,13.0131285,80.2357595,188.67300415039062,7.114999771118164,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:57,13.0131249,80.2357591,188.67300415039062,7.114999771118164,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:57,13.0131201,80.2357595,188.67300415039062,7.114999771118164,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:57,13.0131117,80.2357691,188.67300415039062,7.114999771118164,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:53,13.0133533,80.2359583,0.2590000033378601,0.026000000536441803,81,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,IT Dept-D,0,Slow Walking
+16:57,13.0131756,80.2357862,0.2590000033378601,0.026000000536441803,81,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.49,scattered clouds,Free,IT Dept-D,0,Slow Walking
+16:57,13.0131738,80.2357814,0.2590000033378601,0.026000000536441803,81,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept-D,0,No movement
+16:57,13.0131141,80.2357744,188.67300415039062,7.114999771118164,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:58,13.013109,80.2357677,188.67300415039062,7.114999771118164,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:58,13.0131019,80.2357621,188.67300415039062,7.114999771118164,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:58,13.0130905,80.2357607,188.67300415039062,7.114999771118164,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:58,13.0130905,80.2357605,188.67300415039062,7.114999771118164,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:57,13.0131738,80.2357814,6.686999797821045,0.3449999988079071,33,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept-D,0,No movement
+16:58,13.013125,80.235765,6.686999797821045,0.3449999988079071,33,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept-D,0,No movement
+16:58,13.013125,80.235765,6.686999797821045,0.3449999988079071,33,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept-D,0,No movement
+16:59,13.0131243,80.2357678,194.14999389648438,3.502000093460083,11,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:59,13.0131243,80.2357678,194.14999389648438,3.502000093460083,11,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:59,13.0131303,80.2357524,194.14999389648438,3.502000093460083,11,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+16:59,13.0131303,80.2357524,194.14999389648438,3.502000093460083,11,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+16:59,13.0131051,80.2357386,194.14999389648438,3.502000093460083,11,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+16:59,13.0131141,80.2357347,194.14999389648438,3.502000093460083,11,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:59,13.0131231,80.235736,194.14999389648438,3.502000093460083,11,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+16:59,13.0131291,80.2357891,4.616000175476074,0.06499999761581421,39,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,No movement
+16:59,13.013115,80.2357368,4.616000175476074,0.06499999761581421,39,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,No movement
+16:59,13.0131156,80.2357357,4.616000175476074,0.06499999761581421,39,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,No movement
+16:59,13.0131051,80.2357472,4.616000175476074,0.06499999761581421,39,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,No movement
+16:59,13.0130893,80.2357428,4.616000175476074,0.06499999761581421,39,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,Slow Walking
+16:59,13.0130865,80.2357283,4.616000175476074,0.06499999761581421,39,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,Slow Walking
+16:59,13.0130918,80.2357057,4.616000175476074,0.06499999761581421,39,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,Slow Walking
+16:59,13.01311,80.2357092,4.616000175476074,0.06499999761581421,39,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,Slow Walking
+16:59,13.0131157,80.2357008,4.616000175476074,0.06499999761581421,39,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,Slow Walking
+17:00,13.0131127,80.2357015,4.616000175476074,0.06499999761581421,39,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,Slow Walking
+17:00,13.0130817,80.23572,91.06999969482422,0.30000001192092896,18,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept-D,0,No movement
+17:00,13.0130943,80.2357092,352.1669921875,5.953999996185303,12,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+17:00,13.0130943,80.2357092,352.1669921875,5.953999996185303,12,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+17:00,13.0130943,80.2357092,352.1669921875,5.953999996185303,12,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+17:00,13.0130941,80.23571,352.1669921875,5.953999996185303,12,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+17:00,13.0130941,80.23571,352.1669921875,5.953999996185303,12,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+17:00,13.0130947,80.2357095,352.1669921875,5.953999996185303,12,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+17:00,13.0130951,80.2357122,352.1669921875,5.953999996185303,12,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+17:00,13.0130972,80.2357147,352.1669921875,5.953999996185303,12,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+17:00,13.0131025,80.2357177,352.1669921875,5.953999996185303,12,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+17:00,13.0131149,80.235709,352.1669921875,5.953999996185303,12,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+17:01,13.0131056,80.2357069,352.1669921875,5.953999996185303,12,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:01,13.0130884,80.2357007,352.1669921875,5.953999996185303,12,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+17:01,13.0131127,80.2357015,4.882999897003174,0.16300000250339508,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,Slow Walking
+17:01,13.0131127,80.2357015,4.882999897003174,0.16300000250339508,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,Slow Walking
+17:01,13.0130805,80.2356904,4.882999897003174,0.16300000250339508,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,No movement
+17:01,13.0130629,80.2356838,4.882999897003174,0.16300000250339508,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,No movement
+17:02,13.013065,80.235682,4.882999897003174,0.16300000250339508,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,Slow Walking
+17:02,13.0130622,80.235682,4.882999897003174,0.16300000250339508,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,No movement
+17:02,13.0130707,80.2356976,4.882999897003174,0.16300000250339508,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,Slow Walking
+17:02,13.0130977,80.2356832,4.882999897003174,0.16300000250339508,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,Slow Walking
+17:02,13.0130877,80.235669,4.882999897003174,0.16300000250339508,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,Slow Walking
+17:02,13.0130842,80.2356744,4.882999897003174,0.16300000250339508,53,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept,0,No movement
+17:02,13.0130678,80.2356061,334.406005859375,10.444999694824219,14,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+17:02,13.0130136,80.2356848,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:02,13.0130075,80.2356905,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:02,13.012998,80.2357006,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:02,13.0129931,80.235709,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:02,13.0129913,80.2357102,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:03,13.0129716,80.2357253,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:03,13.0129734,80.2357362,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:03,13.0129764,80.23575,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:03,13.0129673,80.2357764,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:03,13.0129599,80.2357919,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:03,13.0129496,80.2357818,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:03,13.0129402,80.2357785,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:03,13.0129172,80.2357684,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:03,13.0129141,80.2357655,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:03,13.0128965,80.2357536,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:03,13.0128925,80.2357505,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:03,13.0128874,80.235747,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:03,13.0128701,80.2357311,388.76300048828125,10.265000343322754,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Walking
+17:03,13.0128583,80.235765,353.80499267578125,9.20199966430664,8,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+17:03,13.0128583,80.235765,353.80499267578125,9.20199966430664,8,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+17:03,13.0130865,80.2356324,23.816999435424805,0.6840000152587891,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Printing ,0,Walking
+17:03,13.0130865,80.2356324,23.816999435424805,0.6840000152587891,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Printing ,0,Walking
+17:04,13.0130865,80.2356324,23.816999435424805,0.6840000152587891,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Printing ,0,Walking
+17:04,13.0131674,80.2353296,23.816999435424805,0.6840000152587891,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Printing ,0,Slow Walking
+17:04,13.0131614,80.2353506,23.816999435424805,0.6840000152587891,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Printing ,0,Slow Walking
+17:04,13.0131365,80.2353549,23.816999435424805,0.6840000152587891,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Printing ,0,Slow Walking
+17:04,13.0131365,80.2353549,23.816999435424805,0.6840000152587891,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Printing ,0,Slow Walking
+17:04,13.0131558,80.2353316,23.816999435424805,0.6840000152587891,30,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Printing ,0,No movement
+17:05,13.0130412,80.2357445,366.6300048828125,9.505000114440918,9,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+17:05,13.0130412,80.2357445,366.6300048828125,9.505000114440918,9,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,No movement
+17:05,13.0130474,80.235736,366.6300048828125,9.505000114440918,9,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Knowledge Park - Yuvaraj,0,Slow Walking
+17:05,13.0131502,80.2353518,0.30399999022483826,0.014000000432133675,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Printing ,0,Slow Walking
+17:06,13.0131502,80.2353518,0.30399999022483826,0.014000000432133675,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,Printing ,0,Slow Walking
+17:06,13.0131596,80.2352745,0.30399999022483826,0.014000000432133675,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing ,0,Slow Walking
+17:06,13.0131685,80.2352507,0.30399999022483826,0.014000000432133675,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing ,0,Slow Walking
+17:06,13.0131399,80.2352509,0.30399999022483826,0.014000000432133675,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing ,0,Slow Walking
+17:06,13.0131415,80.2352788,0.30399999022483826,0.014000000432133675,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing ,0,Slow Walking
+17:06,13.0131611,80.2352639,0.30399999022483826,0.014000000432133675,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing ,0,Slow Walking
+17:06,13.0131555,80.2352653,0.30399999022483826,0.014000000432133675,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing ,0,Slow Walking
+17:06,13.0131627,80.2352742,0.30399999022483826,0.014000000432133675,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing ,0,Slow Walking
+17:06,13.0131688,80.2352715,0.30399999022483826,0.014000000432133675,44,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing ,0,Slow Walking
+17:00,13.0130817,80.23572,91.06999969482422,0.30000001192092896,18,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept-D,0,No movement
+17:00,13.0130817,80.23572,101.47200012207031,0.20200000703334808,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept-D,0,No movement
+17:01,13.0130733,80.2356717,101.47200012207031,0.20200000703334808,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept-D,0,No movement
+17:01,13.0130654,80.2356704,0.0,0.0,10,,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept-D,0,No movement
+17:01,13.0130654,80.2356704,180.9010009765625,7.206999778747559,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,No movement
+17:01,13.0130654,80.2356704,180.9010009765625,7.206999778747559,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,Slow Walking
+17:03,13.0130488,80.235684,180.9010009765625,7.206999778747559,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,No movement
+17:03,13.0130481,80.2356876,180.9010009765625,7.206999778747559,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,No movement
+17:05,13.0130117,80.2356796,73.75199890136719,4.49399995803833,17,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,No movement
+17:05,13.0130034,80.2356651,73.75199890136719,4.49399995803833,17,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,Slow Walking
+17:05,13.013,80.2356698,73.75199890136719,4.49399995803833,17,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,No movement
+17:06,13.0130368,80.2356767,168.45599365234375,3.555000066757202,10,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,Slow Walking
+17:06,13.0130347,80.235675,168.45599365234375,3.555000066757202,10,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,No movement
+17:06,13.0130267,80.2356866,168.45599365234375,3.555000066757202,10,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,No movement
+17:06,13.0129418,80.2357317,71.84600067138672,2.9260001182556152,11,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,No movement
+17:06,13.0129645,80.2357319,71.84600067138672,2.9260001182556152,11,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,Slow Walking
+17:07,13.0129677,80.235735,71.84600067138672,2.9260001182556152,11,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,Slow Walking
+17:07,13.0130517,80.2357117,317.89300537109375,11.404999732971191,14,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,No movement
+17:08,13.0130517,80.2357117,317.89300537109375,11.404999732971191,14,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,No movement
+17:08,13.013022,80.2357211,317.89300537109375,11.404999732971191,14,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,No movement
+17:08,13.01302,80.2356834,317.89300537109375,11.404999732971191,14,5G,Jio,Sunday,15-09-2024,Weekend,Evening,33.18,scattered clouds,Free,IT Dept Parking-D,0,No movement
+17:06,13.0129797,80.2357154,298.92999267578125,15.048999786376953,10,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,IT Dept Parking - Yuvaraj,0,Slow Walking
+17:07,13.0129797,80.2357154,345.22900390625,10.871999740600586,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,IT Dept Parking - Yuvaraj,0,Slow Walking
+17:07,13.0130923,80.2356461,345.22900390625,10.871999740600586,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,IT Dept Parking - Yuvaraj,0,Slow Walking
+17:07,13.0130896,80.2356459,345.22900390625,10.871999740600586,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,IT Dept Parking - Yuvaraj,0,Slow Walking
+17:07,13.0130665,80.2356304,345.22900390625,10.871999740600586,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,IT Dept Parking - Yuvaraj,0,Slow Walking
+17:07,13.0130672,80.2356139,345.22900390625,10.871999740600586,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,IT Dept Parking - Yuvaraj,0,Slow Walking
+17:07,13.013099,80.2356169,345.22900390625,10.871999740600586,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,IT Dept Parking - Yuvaraj,0,Slow Walking
+17:09,13.0130583,80.23566,261.29400634765625,4.289999961853027,16,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,IT Dept Parking-D,0,No movement
+17:09,13.0130548,80.235708,261.29400634765625,4.289999961853027,16,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,IT Dept Parking-D,0,Slow Walking
+17:07,13.013099,80.2356169,250.26300048828125,6.914000034332275,11,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,K Hut - Yuvaraj,0,No movement
+17:11,13.0130693,80.2353881,250.26300048828125,6.914000034332275,11,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,K Hut - Yuvaraj,0,No movement
+17:11,13.0130702,80.2353857,250.26300048828125,6.914000034332275,11,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,K Hut - Yuvaraj,0,No movement
+17:11,13.0130854,80.2353963,250.26300048828125,6.914000034332275,11,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,K Hut - Yuvaraj,0,No movement
+17:11,13.0130885,80.2353944,250.26300048828125,6.914000034332275,11,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,K Hut - Yuvaraj,0,Slow Walking
+17:12,13.0130967,80.2353702,250.26300048828125,6.914000034332275,11,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,K Hut - Yuvaraj,0,Slow Walking
+17:12,13.0131063,80.2353534,250.26300048828125,6.914000034332275,11,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,K Hut - Yuvaraj,0,No movement
+17:12,13.013116,80.2353642,250.26300048828125,6.914000034332275,11,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,K Hut - Yuvaraj,0,No movement
+17:12,13.0130992,80.2353603,250.26300048828125,6.914000034332275,11,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,K Hut - Yuvaraj,0,Slow Walking
+17:11,13.0132245,80.23521,2.295,0.0,40,,Jio,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:14,13.0132335,80.2352106,2.295,0.0,40,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:14,13.0132377,80.2352143,2.295,0.0,40,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:14,13.0132372,80.2352175,2.295,0.0,40,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:14,13.0132365,80.2352173,2.295,0.0,40,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:14,13.0132315,80.2352263,2.295,0.0,40,,Jio,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:14,13.013238,80.2352366,2.295,0.0,40,,Jio,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:14,13.0132429,80.235228,2.295,0.0,40,,Jio,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:14,13.013232,80.2352217,2.295,0.0,40,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:14,13.0132298,80.2352207,2.295,0.0,40,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:14,13.0132303,80.2352223,2.295,0.0,40,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:14,13.0132297,80.2352235,2.295,0.0,40,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:14,13.013229,80.2352232,2.295,0.0,40,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:12,13.0130992,80.2353603,0.049,0.0,14,,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing Department - Yuvaraj,0,No movement
+17:12,13.0130992,80.2353603,0.049,0.0,14,,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing Department - Yuvaraj,0,No movement
+17:14,13.0132253,80.2352237,3.11299991607666,0.14900000393390656,68,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:15,13.0132037,80.2351905,3.11299991607666,0.14900000393390656,68,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:15,13.013205,80.2351882,3.11299991607666,0.14900000393390656,68,4G,Jio,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:15,13.0132051,80.2351869,3.11299991607666,0.14900000393390656,68,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:15,13.0132032,80.2351879,3.11299991607666,0.14900000393390656,68,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:15,13.0132101,80.2351793,3.11299991607666,0.14900000393390656,68,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:12,13.0130992,80.2353603,0.049,0.0,14,,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing Department - Yuvaraj,0,No movement
+17:15,13.0131405,80.2351138,0.04,0.0,10,,Airtel,Sunday,15-09-2024,Weekend,Evening,33.02,scattered clouds,Free,Printing Department - Yuvaraj,0,No movement
+17:15,13.0132101,80.2351793,0.15,0.0,59,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:16,13.0132294,80.2351264,0.15,0.0,59,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:16,13.0132276,80.2351263,0.15,0.0,59,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:17,13.0132198,80.2351532,0.15,0.0,59,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:17,13.013215,80.2351377,0.15,0.0,59,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:17,13.0132247,80.2351379,0.15,0.0,59,,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:17,13.0132253,80.2351374,0.15,0.0,59,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:17,13.0132264,80.235141,0.15,0.0,59,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:17,13.0132427,80.2351274,0.15,0.0,59,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:17,13.0132325,80.2351232,0.15,0.0,59,,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:16,13.013153,80.2351902,1.3459999561309814,0.32600000500679016,41,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Crowded,Printing-D,0,Slow Walking
+17:16,13.0131505,80.2351902,1.3459999561309814,0.32600000500679016,41,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Crowded,Printing-D,0,No movement
+17:17,13.0131983,80.2351317,2.117000102996826,0.17599999904632568,43,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Crowded,Printing-D,0,No movement
+17:17,13.0131986,80.235133,2.117000102996826,0.17599999904632568,43,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-D,0,No movement
+17:17,13.0131986,80.235133,2.117000102996826,0.17599999904632568,43,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-D,0,No movement
+17:17,13.0131986,80.235133,2.117000102996826,0.17599999904632568,43,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-D,0,No movement
+17:18,13.0132124,80.235177,182.16900634765625,0.2540000081062317,11,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-D,0,No movement
+17:18,13.0132124,80.235177,182.16900634765625,0.2540000081062317,11,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-D,0,No movement
+17:18,13.0131946,80.2351374,182.16900634765625,0.2540000081062317,11,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-D,0,No movement
+17:18,13.0131946,80.2351374,182.16900634765625,0.2540000081062317,11,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-D,0,No movement
+17:18,13.013192,80.2351277,182.16900634765625,0.2540000081062317,11,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-D,0,No movement
+17:18,13.013192,80.2351277,182.16900634765625,0.2540000081062317,11,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-D,0,No movement
+17:18,13.0132334,80.2350659,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:18,13.0132333,80.2350745,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:18,13.013238,80.2350854,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:18,13.013242,80.235089,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:18,13.013244,80.2350953,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:18,13.0132486,80.235098,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:18,13.0132501,80.235097,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:18,13.0132498,80.2350965,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:18,13.0132567,80.235085,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:18,13.013254,80.2350732,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:19,13.0132467,80.2350638,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:19,13.0132365,80.2350457,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Walking
+17:19,13.0132242,80.2350329,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Walking
+17:19,13.0132193,80.2350305,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Walking
+17:19,13.0132104,80.2350298,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Walking
+17:19,13.0132066,80.2350358,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:19,13.0132053,80.2350419,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:19,13.0132067,80.2350528,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:19,13.0132092,80.2350553,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.92,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:19,13.0132119,80.2350558,12.159000396728516,0.15600000321865082,49,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:19,13.0131733,80.2350783,191.55999755859375,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-D,0,No movement
+17:19,13.0131733,80.2350783,191.55999755859375,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-D,0,Slow Walking
+17:19,13.0131952,80.2350279,16.150999069213867,0.20200000703334808,28,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:19,13.0131957,80.2350209,16.150999069213867,0.20200000703334808,28,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:19,13.0131952,80.2350152,16.150999069213867,0.20200000703334808,28,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:19,13.0131945,80.2350119,16.150999069213867,0.20200000703334808,28,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:20,13.0131933,80.23501,16.150999069213867,0.20200000703334808,28,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:20,13.0131932,80.2350103,16.150999069213867,0.20200000703334808,28,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:20,13.0131954,80.23501,16.150999069213867,0.20200000703334808,28,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:20,13.013198,80.2350122,16.150999069213867,0.20200000703334808,28,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:20,13.0132023,80.2350173,16.150999069213867,0.20200000703334808,28,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:20,13.0132027,80.2350167,16.150999069213867,0.20200000703334808,28,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:20,13.0132043,80.2350143,16.150999069213867,0.20200000703334808,28,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:20,13.0132,80.2350087,16.150999069213867,0.20200000703334808,28,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:20,13.0131947,80.2350025,16.150999069213867,0.20200000703334808,28,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:20,13.013198,80.2349959,16.150999069213867,0.20200000703334808,28,4G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:29,13.0114151,80.2363038,57.64400100708008,0.25999999046325684,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:29,13.0114153,80.2363014,57.64400100708008,0.25999999046325684,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:29,13.0114242,80.2363002,57.64400100708008,0.25999999046325684,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.76,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:29,13.0114418,80.2362885,57.64400100708008,0.25999999046325684,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:29,13.0114376,80.2362742,57.64400100708008,0.25999999046325684,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:29,13.0114436,80.2362741,57.64400100708008,0.25999999046325684,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:29,13.0114597,80.2362775,57.64400100708008,0.25999999046325684,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:29,13.0114621,80.2362718,57.64400100708008,0.25999999046325684,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:30,13.0114605,80.2362612,57.64400100708008,0.25999999046325684,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:30,13.0114529,80.236272,57.64400100708008,0.25999999046325684,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:31,13.011506,80.236298,168.04200744628906,2.812000036239624,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:31,13.0115029,80.2363014,168.04200744628906,2.812000036239624,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:31,13.0114924,80.2362911,168.04200744628906,2.812000036239624,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:31,13.0114847,80.2362846,168.04200744628906,2.812000036239624,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,No movement
+17:31,13.011479,80.2362818,168.04200744628906,2.812000036239624,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:31,13.0114667,80.2362807,168.04200744628906,2.812000036239624,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:31,13.0114635,80.236288,168.04200744628906,2.812000036239624,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:31,13.0114669,80.2362927,168.04200744628906,2.812000036239624,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:31,13.0114699,80.2362927,168.04200744628906,2.812000036239624,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:31,13.0114807,80.2362908,168.04200744628906,2.812000036239624,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Printing-Hariharan,0,Slow Walking
+17:33,13.0114453,80.2362728,132.718994140625,0.29899999499320984,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,No movement
+17:34,13.0115419,80.2362718,132.718994140625,0.29899999499320984,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,No movement
+17:34,13.0115386,80.2362752,132.718994140625,0.29899999499320984,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,No movement
+17:34,13.0115346,80.2362749,132.718994140625,0.29899999499320984,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:34,13.0115217,80.2362783,132.718994140625,0.29899999499320984,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:34,13.0115241,80.2362883,132.718994140625,0.29899999499320984,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:34,13.0115341,80.2362896,132.718994140625,0.29899999499320984,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:34,13.0115378,80.2362832,132.718994140625,0.29899999499320984,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:34,13.0115364,80.2362745,132.718994140625,0.29899999499320984,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:34,13.0115202,80.2362752,132.718994140625,0.29899999499320984,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:35,13.0115202,80.2362752,136.61399841308594,0.26600000262260437,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,No movement
+17:35,13.0115459,80.2362671,136.61399841308594,0.26600000262260437,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,No movement
+17:35,13.0115525,80.2362727,136.61399841308594,0.26600000262260437,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:35,13.0115855,80.2362815,136.61399841308594,0.26600000262260437,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:36,13.011636,80.2363471,136.61399841308594,0.26600000262260437,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:36,13.011675,80.236322,136.61399841308594,0.26600000262260437,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:36,13.0116788,80.2362988,136.61399841308594,0.26600000262260437,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:36,13.0116715,80.236291,136.61399841308594,0.26600000262260437,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:36,13.0116465,80.236289,136.61399841308594,0.26600000262260437,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Walking
+17:36,13.0116386,80.2362917,136.61399841308594,0.26600000262260437,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Walking
+17:35,13.0116383,80.2364144,169.61399841308594,4.0980000495910645,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Crowded,Vivek Audi - Yuvaraj ,0,No movement
+17:35,13.0116267,80.236415,169.61399841308594,4.0980000495910645,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Crowded,Vivek Audi - Yuvaraj ,0,No movement
+17:35,13.0116254,80.236413,169.61399841308594,4.0980000495910645,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Crowded,Vivek Audi - Yuvaraj ,0,No movement
+17:36,13.0116252,80.2363927,169.61399841308594,4.0980000495910645,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Crowded,Vivek Audi - Yuvaraj ,0,Slow Walking
+17:36,13.0116288,80.2363883,169.61399841308594,4.0980000495910645,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Crowded,Vivek Audi - Yuvaraj ,0,Slow Walking
+17:36,13.0116374,80.2363948,169.61399841308594,4.0980000495910645,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Crowded,Vivek Audi - Yuvaraj ,0,No movement
+17:36,13.011639,80.2363982,169.61399841308594,4.0980000495910645,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Crowded,Vivek Audi - Yuvaraj ,0,No movement
+17:36,13.011638,80.2364021,169.61399841308594,4.0980000495910645,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Crowded,Vivek Audi - Yuvaraj ,0,No movement
+17:36,13.011641,80.2364204,169.61399841308594,4.0980000495910645,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Crowded,Vivek Audi - Yuvaraj ,0,Slow Walking
+17:36,13.0116577,80.2364375,169.61399841308594,4.0980000495910645,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Crowded,Vivek Audi - Yuvaraj ,0,Slow Walking
+17:36,13.0116653,80.2364358,169.61399841308594,4.0980000495910645,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Crowded,Vivek Audi - Yuvaraj ,0,Slow Walking
+17:36,13.0116567,80.2364461,169.61399841308594,4.0980000495910645,13,5G,Airtel,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Crowded,Vivek Audi - Yuvaraj ,0,Slow Walking
+17:33,13.0114433,80.2362533,153.3459930419922,2.0390000343322754,19,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:33,13.0114433,80.2362533,153.3459930419922,2.0390000343322754,19,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:33,13.0114433,80.2362533,153.3459930419922,2.0390000343322754,19,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:34,13.0114427,80.2362507,153.3459930419922,2.0390000343322754,19,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:35,13.0115015,80.2362732,197.1219940185547,2.7139999866485596,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:35,13.0115034,80.2362761,153.77099609375,2.503999948501587,19,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,Slow Walking
+17:35,13.0115034,80.2362761,153.77099609375,2.503999948501587,19,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,Slow Walking
+17:36,13.0115105,80.236299,153.77099609375,2.503999948501587,19,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,Slow Walking
+17:36,13.0115667,80.2362717,276.0329895019531,2.5209999084472656,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:36,13.0115667,80.2362717,276.0329895019531,2.5209999084472656,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:37,13.0115697,80.2362549,276.0329895019531,2.5209999084472656,12,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:37,13.0116386,80.2362917,226.48599243164062,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:37,13.0116386,80.2362917,226.48599243164062,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:37,13.0116386,80.2362917,226.48599243164062,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:37,13.0116386,80.2362917,226.48599243164062,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:37,13.0116386,80.2362917,226.48599243164062,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:37,13.0116386,80.2362917,226.48599243164062,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:37,13.0115339,80.2363776,226.48599243164062,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:37,13.0115317,80.236387,226.48599243164062,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:37,13.0115345,80.2364,226.48599243164062,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:37,13.0115497,80.2363894,226.48599243164062,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:37,13.0115501,80.2363587,226.48599243164062,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:37,13.0115492,80.2363512,226.48599243164062,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:37,13.0115538,80.2363383,226.48599243164062,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Walking
+17:37,13.0115524,80.2363268,226.48599243164062,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Walking
+17:37,13.0115524,80.2363268,226.48599243164062,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Walking
+17:37,13.0115485,80.2362979,226.48599243164062,0.22100000083446503,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,Walking
+17:37,13.0115759,80.2362533,231.41400146484375,2.191999912261963,10,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:37,13.011575,80.2362533,231.41400146484375,2.191999912261963,10,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:37,13.011575,80.2362533,231.41400146484375,2.191999912261963,10,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:37,13.011575,80.2362533,231.41400146484375,2.191999912261963,10,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:38,13.01155,80.2362417,254.74600219726562,6.4730000495910645,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:38,13.01155,80.2362417,254.74600219726562,6.4730000495910645,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:38,13.01155,80.2362417,254.74600219726562,6.4730000495910645,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:38,13.0115779,80.2362482,254.74600219726562,6.4730000495910645,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,Slow Walking
+17:39,13.0116426,80.2362684,33.34199905395508,3.236999988555908,20,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,Walking
+17:39,13.0116426,80.2362684,33.34199905395508,3.236999988555908,20,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi -D,0,Slow Walking
+17:40,13.0115963,80.2363737,70.7030029296875,1.6180000305175781,19,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:40,13.0115946,80.2363678,70.7030029296875,1.6180000305175781,19,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:40,13.0115946,80.2363678,70.7030029296875,1.6180000305175781,19,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi -D,0,Slow Walking
+17:40,13.0116425,80.2363563,70.7030029296875,1.6180000305175781,19,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi -D,0,Slow Walking
+17:40,13.0116767,80.2363385,70.7030029296875,1.6180000305175781,19,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi -D,0,Slow Walking
+17:39,13.0116743,80.2363241,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,No movement
+17:39,13.0116783,80.2363216,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,No movement
+17:39,13.0116797,80.2363346,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.6,scattered clouds,Free,Vivek Audi - Hariharan,0,No movement
+17:40,13.0116814,80.2363377,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,No movement
+17:40,13.0116803,80.2363382,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,No movement
+17:40,13.0116806,80.2363277,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:40,13.0116884,80.2363218,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:41,13.0117088,80.236347,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:41,13.0117295,80.2363529,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:41,13.0117457,80.2363592,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:41,13.0117685,80.2363456,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:41,13.0117577,80.2363435,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:41,13.0117524,80.2363499,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:41,13.0117384,80.2363579,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:41,13.0117385,80.2363531,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:41,13.0117282,80.236345,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:41,13.011716,80.2363462,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:41,13.0117112,80.2363467,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:41,13.0116959,80.2363384,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:41,13.0116878,80.236329,152.375,2.3359999656677246,13,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi - Hariharan,0,Slow Walking
+17:41,13.0116683,80.23635,135.83999633789062,1.3049999475479126,17,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:42,13.0116683,80.23635,135.83999633789062,1.3049999475479126,17,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi -D,0,No movement
+17:44,13.0115004,80.2364528,110.56800079345703,3.759999990463257,15,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi -D,0,Walking
+17:44,13.0115004,80.2364528,110.56800079345703,3.759999990463257,15,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi -D,0,Walking
+17:44,13.0115004,80.2364528,110.56800079345703,3.759999990463257,15,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi -D,0,Walking
+22:01,13.0151299,80.2397463,0.0,0.0,16,,Airtel,Sunday,15-09-2024,Weekend,Night,30.76,haze,Crowded,,0,No movement
