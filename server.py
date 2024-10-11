@@ -10,6 +10,11 @@ CORS(app, resources={r"*": {"origins": "*"}})
 with open('models.pkl', 'rb') as f:
     models = pickle.load(f)
 
+
+@app.route("/check", methods=["GET", "POST"])
+def send():
+    return jsonify({message:"Working"})
+
 @app.route('/add_data', methods=['POST'])
 def add_data():
     data = request.json
