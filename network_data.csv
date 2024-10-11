@@ -1,4 +1,4 @@
-timestamp,latitude,longitude,download_speed,upload_speed,latency,connection_type,isp_name,day,date,type_of_day,session,temperature,crodedness,environment_type,location_name,floor,mobility
+timestamp,latitude,longitude,download_speed,upload_speed,latency,connection_type,isp_name,day,date,type_of_day,session,temperature,climate,crowdedness,location_name,floor,mobility,movement_speed,contributor
 14:51,13.0151344,80.2398425,0.04699999839067459,0.039000000804662704,35,5G,Airtel,Sunday,15-09-2024,Weekend,Afternoon,36.87,scattered clouds,Crowded,,0,No movement
 14:51,13.0151344,80.2398425,0.04699999839067459,0.039000000804662704,35,5G,Airtel,Sunday,15-09-2024,Weekend,Afternoon,36.87,scattered clouds,Crowded,,0,No movement
 14:51,13.0151344,80.2398425,0.04699999839067459,0.039000000804662704,35,5G,Airtel,Sunday,15-09-2024,Weekend,Afternoon,36.87,scattered clouds,Crowded,,0,No movement
@@ -613,3 +613,8 @@ timestamp,latitude,longitude,download_speed,upload_speed,latency,connection_type
 17:44,13.0115004,80.2364528,110.56800079345703,3.759999990463257,15,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi -D,0,Walking
 17:44,13.0115004,80.2364528,110.56800079345703,3.759999990463257,15,5G,Jio,Sunday,15-09-2024,Weekend,Evening,32.13,scattered clouds,Free,Vivek Audi -D,0,Walking
 22:01,13.0151299,80.2397463,0.0,0.0,16,,Airtel,Sunday,15-09-2024,Weekend,Night,30.76,haze,Crowded,,0,No movement
+04:02,13.0151506,80.2398678,10.055999755859375,0.6100000143051147,38,4G,Jio,Tuesday,17-09-2024,Weekday,Midnight,29.57,mist,Crowded,Senbagam Hostel,0,Slow Walking,,,,,0,,,,,,,,,0,,,null,,-129,-18,0,0,0,2147483647,null
+04:03,13.0151501,80.2398679,10.055999755859375,0.6100000143051147,38,4G,Jio,Tuesday,17-09-2024,Weekday,Midnight,29.57,mist,Crowded,Senbagam Hostel,0,No movement,,,,,0,,,,,,,,,0,,,null,,-119,-18,0,0,0,2147483647,null
+10:22,13.0151668,80.2398817,0.0,0.0,0,4G,Airtel,Tuesday,17-09-2024,Weekday,Morning,33.33,scattered clouds,Crowded,,0,No movement,0.00,,,,,,,,,,,-108,-16,0,2147483647,3,,,,,,,,,,
+10:22,13.0151668,80.2398817,0.0,0.0,0,4G,Airtel,Tuesday,17-09-2024,Weekday,Morning,33.33,scattered clouds,Crowded,,0,No movement,0.00,,,,,,,,,,,-108,-16,0,2147483647,3,,,,,,,,,,
+10:22,13.0151668,80.2398817,0.0,0.0,0,4G,Airtel,Tuesday,17-09-2024,Weekday,Morning,33.33,scattered clouds,Crowded,,0,No movement,0.13,,,,,,,,,,,-108,-16,0,2147483647,3,,,,,,,,,,

@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
 import csv
 
@@ -17,7 +17,7 @@ def add_data():
         return jsonify({"message": "Invalid data format"}), 400
 
     # Append data to CSV file
-    with open('network_data.csv', mode='a', newline='') as file:
+    with open('updated_data.csv', mode='a', newline='') as file:
         writer = csv.writer(file)
         writer.writerows(data)
 
@@ -29,6 +29,9 @@ def add_data():
 def send_data_file():
     return send_file("./network_data.csv", as_attachment=True);
 
+@app.route('/data/updated_data.csv', methods=['GET'])
+def send_file2():
+    return send_file("./updated_data.csv", as_attachment=True);
 
 if __name__ == '__main__':
     app.run(debug=False, port=80, host="0.0.0.0")
